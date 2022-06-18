@@ -17,7 +17,7 @@ public class ArrayFromUser {
         }
 
         for (int i = 0; i < scores.size(); i++) {
-            System.out.println("Score at " + i + " is " + scores.get(i));
+            System.out.println("Score at " + (i + 1) + " is " + scores.get(i));
         }
         userInput.close();
     }
