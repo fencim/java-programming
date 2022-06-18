@@ -8,8 +8,13 @@ public class ArrayFromUser {
         int scoreCount = userInput.nextInt();
 
         System.out.println("You need to enter "+ scoreCount + " scores");
-
-        
+        int counter = 0;
+        while (counter < scoreCount) {
+            //ask ng input
+            int score = userInput.nextInt();
+            scores.add(score);
+            counter++;
+        }
         userInput.close();
     }
 }
